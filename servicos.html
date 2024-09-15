@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços - Pet Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <span class="bg-dark text-white p-2">PT</span> Pet Shop
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="produtos.html">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicos.html">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre nós</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <a href="#" class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#loginModal">Entrar</a>
+                        <a href="#" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#cadastroModal">Cadastre-se</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    <div class="container mt-5">
+        <h2 class="mb-4">Nossos Serviços</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="service-item">
+                    <h3>Banho & Tosa</h3>
+                    <p>Serviço completo de higiene e estética para seu pet.</p>
+                    <button class="btn btn-primary" onclick="agendarServico('Banho & Tosa')">Agendar</button>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="service-item">
+                    <h3>Consulta Veterinária</h3>
+                    <p>Atendimento veterinário para cuidar da saúde do seu pet.</p>
+                    <button class="btn btn-primary" onclick="agendarServico('Consulta Veterinária')">Agendar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Entrar</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label for="loginEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="loginEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="loginPassword" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="loginPassword" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Entrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cadastro Modal -->
+    <div class="modal fade" id="cadastroModal" tabindex="-1" aria-labelledby="cadastroModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cadastroModalLabel">Cadastre-se</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="cadastroForm">
+                        <div class="mb-3">
+                            <label for="cadastroNome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="cadastroNome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="cadastroEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="cadastroEmail" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="cadastroPassword" class="form-label">Senha</label>
+                            <input type="password" class="form-control" id="cadastroPassword" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Cadastrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>

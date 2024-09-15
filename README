@@ -1,0 +1,22 @@
+
+# PetShop - Website
+ 
+Este é o site de uma PetShop fictícia, criado como parte de um projeto acadêmico. O site é responsivo e contém diversas seções com informações sobre produtos, serviços, e formulários de contato e cadastro. Utilizamos HTML, CSS, Bootstrap e JavaScript para a criação do front-end.
+
+# Estrutura do Projeto
+O projeto está organizado da seguinte forma:
+
+# Funcionalidades
+
+# Cabeçalho (Header):
+Contém o logo da PetShop e links de navegação para as seções: Home, Produtos, Serviços, Contato e Sobre Nós.
+
+# Banner Inicial:
+Uma seção de boas-vindas com destaque para agendamento de serviços.
+
+# Produtos:
+
+Exibe diferentes categorias de produtos para pets, como rações secas e úmidas.
+Cada produto tem uma imagem, descrição e um botão de "Comprar".
+Serviços:
+Seção que apresenta os serviços oferecidos, como banho, tosa e consultas veterinárias, além de um botão para agendar serviços.

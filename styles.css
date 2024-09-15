@@ -1,0 +1,37 @@
+body {
+    background-color: #ffd700;
+}
+
+.navbar {
+    background-color: #000 !important;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.btn-primary {
+    background-color: #000;
+    border-color: #000;
+}
+
+.btn-primary:hover {
+    background-color: #333;
+    border-color: #333;
+}
+
+.product-card {
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.service-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
